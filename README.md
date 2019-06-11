@@ -1,4 +1,4 @@
-# text-me
+# txt-me
 
 Fill out the `.env` file to send texts from an email address you control
 
