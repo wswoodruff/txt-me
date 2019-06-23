@@ -47,9 +47,9 @@ module.exports = new Confidence.Store({
                     },
                     twilio: {
                         account: {
-                            name: process.env.ACCOUNT_NAME,
                             accountSid: process.env.SID,
-                            authToken: process.env.AUTH_TOKEN
+                            authToken: process.env.AUTH_TOKEN,
+                            defaultNumber: process.env.DEFAULT_NUMBER
                         }
                     }
                 }
