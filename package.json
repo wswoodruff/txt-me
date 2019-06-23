@@ -20,7 +20,8 @@
     "email-me": "^1.0.1",
     "haute-couture": "3.x.x",
     "nodemailer": "^6.2.1",
-    "schmervice": "^1.2.0"
+    "schmervice": "^1.2.0",
+    "twilio": "^3.32.0"
   },
   "devDependencies": {
     "@hapi/code": "5.x.x",
