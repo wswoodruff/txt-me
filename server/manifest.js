@@ -38,7 +38,8 @@ module.exports = new Confidence.Store({
                             authToken: process.env.AUTH_TOKEN,
                             defaultNumber: process.env.DEFAULT_NUMBER
                         }
-                    }
+                    },
+                    statusServerUrl: process.env.STATUS_SERVER_URL
                 }
             },
             {
