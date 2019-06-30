@@ -1,3 +1,7 @@
+# Under Construction
+
+-- I am working on this project and the README is probably out of date.
+
 # txt-me
 
 Fill out the `.env` file to send texts from an email address you control
