@@ -2,6 +2,9 @@
 
 Fill out the `.env` file with your Twilio creds. See `server/.env-keep` for an example.
 
+## Usage
+> See also the [API Reference](./API.md)
+
 #### exposed hpal command
 
 ```sh
