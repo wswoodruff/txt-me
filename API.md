@@ -36,9 +36,24 @@ This function begins a watch session with a test id and sends status updates for
 
 ## txtMeTwilioService
 
-Imagine a world where the hpal commands listed above were also available on the `txtMeTwilioService`
-except camelCase instead of kebob-case
+### getDefaultOrRandomNumber()
 
-It could be true.
-It's not but it's close.
-I'm too lazy right now to say anything other than plz refer to the source
+If an env var is set for a default purchased number, it is used. Otherwise a random purchased number is used
+
+### listAvailableNumbers(areaCode)
+
+Same behavior as hpal command
+
+### purchaseNumber(number)
+
+Same behavior as hpal command
+
+### listPurchasedNumbers()
+
+Same behavior as hpal command
+
+### text({ from, to, body, mediaUrl, statusListenerId })
+
+Pretty much the same as the hpal command.
+Here, `statusListenerId` and `from` are exposed.
+If you do pass a `statusListenerId`, make sure you pass that id when you listen on SSE.
