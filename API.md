@@ -39,6 +39,6 @@ This function begins a watch session with a test id and sends status updates for
 Imagine a world where the hpal commands listed above were also available on the `txtMeTwilioService`
 except camelCase instead of kebob-case
 
-It's could be true.
+It could be true.
 It's not but it's close.
 I'm too lazy right now to say anything other than plz refer to the source
