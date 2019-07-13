@@ -1,6 +1,6 @@
 # API Reference
 
-## hpal commands
+# hpal commands
 
 ### default
 `hpal run txt-me <to> <message|mms-url> [mms-url]`
@@ -34,7 +34,7 @@ Run this to test the SSE connection with your `statusServerUrl`
 
 This function begins a watch session with a test id and sends status updates for that id ('sent' then 'delivered')
 
-## txtMeTwilioService
+# txtMeTwilioService
 
 ### getDefaultOrRandomNumber()
 
