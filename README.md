@@ -1,25 +1,9 @@
-# Under Construction
-
--- I am working on this project and the README is probably out of date.
-
 # txt-me
 
-Fill out the `.env` file to send texts from an email address you control
+Fill out the `.env` file with your Twilio creds. See `server/.env-keep` for an example.
 
-### hpal command
+### exposed hpal command
 
 ```sh
-hpal run txt-me verizon 0123456 'Testing!!'
-```
-
-#### Supported carrier values
-```
-verizon
-tmobile
-at&t
-att
-sprint
-fi
-googleFi
-uscellular
+hpal run txt-me 1234567890 'Testing!!' 'https://optional/mms/url'
 ```
