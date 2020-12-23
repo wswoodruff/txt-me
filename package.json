@@ -22,7 +22,7 @@
     "haute-couture": "3.x.x",
     "lodash": "^4.17.13",
     "schmervice": "1.x.x",
-    "sse-listen": "1.x.x",
+    "sse-listen": "^1.0.3",
     "twilio": "3.x.x"
   },
   "devDependencies": {
